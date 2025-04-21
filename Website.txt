@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Your Name | Cultural Massage Therapist</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #f8f5f2;
+      color: #333;
+    }
+    header {
+      background: #5e3c24;
+      color: white;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    header p {
+      font-size: 1.2rem;
+      margin-top: 0.5rem;
+    }
+    section {
+      padding: 2rem 1rem;
+      max-width: 900px;
+      margin: auto;
+    }
+    .portfolio {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 1.5rem;
+    }
+    .portfolio-item {
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      padding: 1rem;
+    }
+    .portfolio-item h3 {
+      margin-top: 0;
+      color: #5e3c24;
+    }
+    .social {
+      text-align: center;
+      margin-top: 2rem;
+    }
+    .social a {
+      margin: 0 0.5rem;
+      text-decoration: none;
+      color: #5e3c24;
+      font-weight: bold;
+    }
+    footer {
+      background: #ddd3c4;
+      color: #333;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 3rem;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Your Name</h1>
+  <p>Professional Massage Therapist | Rooted in Culture, Centered in Healing</p>
+</header>
+
+<section>
+  <h2>Portfolio</h2>
+  <div class="portfolio">
+    <div class="portfolio-item">
+      <h3>Deep Tissue Therapy</h3>
+      <p>A holistic approach blending tradition and technique to relieve tension and pain.</p>
+    </div>
+    <div class="portfolio-item">
+      <h3>Cultural Healing Sessions</h3>
+      <p>Inspired by ancestral practices that focus on the mind-body-spirit connection.</p>
+    </div>
+    <div class="portfolio-item">
+      <h3>Wellness Retreats</h3>
+      <p>Curated group sessions and events designed to restore and revitalize.</p>
+    </div>
+  </div>
+</section>
+
+<section class="social">
+  <h2>Connect with Me</h2>
+  <a href="https://instagram.com/yourhandle" target="_blank">Instagram</a>
+  <a href="https://linkedin.com/in/yourprofile" target="_blank">LinkedIn</a>
+  <a href="mailto:youremail@example.com">Email</a>
+</section>
+
+<footer>
+  &copy; 2025 Your Name. All rights reserved.
+</footer>
+
+</body>
+</html>
